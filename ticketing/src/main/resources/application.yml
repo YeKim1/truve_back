@@ -43,6 +43,10 @@ spring:
             url: ${PAYMENT_SERVER_URI:http://localhost:8082}
             connectTimeout: 3000
             readTimeout: 5000
+          musical-service:
+            url: ${MUSICAL_SERVER_URI:http://localhost:8085}
+            connectTimeout: 3000
+            readTimeout: 5000
 
 springdoc:
   api-docs:

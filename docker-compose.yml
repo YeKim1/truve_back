@@ -188,6 +188,7 @@ services:
       - USER_REDIS_PORT=6379
       - KAFKA_SERVERS=kafka:9092
       - PAYMENT_SERVER_URI=http://payment:8082
+      - MUSICAL_SERVER_URI=http://musical:8085
 
     depends_on:
       db:
